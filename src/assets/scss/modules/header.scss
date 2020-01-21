@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: rem(17);
+
+  &__decor {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: rem(922);
+    max-width: 99vw;
+    margin-right: rem(19);
+    margin-left: rem(19);
+  }
+  
+  &__logo {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    max-width: 97vw;
+    height: rem(202);
+    background: center / cover no-repeat url(/assets/img/header-logo.png);
+  }
+
+  &__shadow {
+    content: "";
+    position: absolute;
+    bottom: rem(-343);
+    z-index: 1;
+    width: 97vw;
+    height: rem(372);
+    background-image: url(/assets/img/header-shadow.png);
+    background-size: vw(1778);
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+}

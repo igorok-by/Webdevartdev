@@ -1,0 +1,12 @@
+.footer {
+  border-top: rem(3) solid $border-success;
+
+  &__credentials {
+    padding-top: rem(27);
+    padding-bottom: rem(27);
+    color: #919191;
+    font-family: $thirdFont;
+    font-size: rem(12);
+    background-color: $default-bckgr;
+  }
+}

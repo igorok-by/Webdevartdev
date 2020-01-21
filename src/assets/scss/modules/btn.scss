@@ -1,0 +1,26 @@
+.btn {
+  display: inline-block;
+  padding: rem(22) rem(45);
+  color: $mainFontColor;
+  font-family: $secondFont;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: rem(5);
+  border: rem(2) solid $border-base;
+  transition: $default-transition;
+
+  &:hover {
+    color: $success-color;
+    border-color: $success-color;  
+  }
+
+  &--success {
+    color: $neutral-success;
+    border-color: $neutral-success;
+  }
+
+  &--success:hover {
+    color: $mainFontColor;
+    border-color: $default-color;
+  }
+}

@@ -1,0 +1,14 @@
+.text {
+  margin-bottom: rem(25);
+  padding-right: vw(32);
+  color: $dark-color;
+  font-family: $thirdFont;
+  font-size: rem(14);
+  line-height: rem(25);
+
+  
+  @include media-breakpoint-down(md) {
+
+    padding-right: 0;
+  }
+}

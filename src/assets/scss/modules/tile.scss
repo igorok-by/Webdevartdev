@@ -1,0 +1,105 @@
+.tile {
+  position: relative;
+  width: 100%;
+  text-align: center;
+
+  &--dark {
+    margin-bottom: vw(190);
+    padding: rem(30) rem(43) rem(35) rem(43);
+    border-radius: rem(5);
+    background-color: rgba($success-bckgr, 0.7);
+  }
+
+  &--round {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: rem(333);
+    margin-top: rem(30);
+    padding-right: vw(55.5);
+    padding-left: vw(55.5);
+  }
+
+  &__wrap {
+    position: relative;
+    top: vw(-145);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: rem(50);
+  }
+
+  &__title {
+    margin-bottom: rem(20);
+    color: $neutral-secondary;
+    font-size: rem(34);
+    font-weight: 300;
+  }
+
+  &__text {
+    font-family: $thirdFont;
+    font-size: rem(14);
+    line-height: rem(25);
+  }
+
+  &__img {
+    position: relative;
+    z-index: 2;
+    width: rem(207);
+    min-width: rem(207);
+    height: rem(207);
+    margin-top: rem(6.5);
+    margin-bottom: rem(40);
+  }
+
+  &__img-border {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: rem(220);
+    height: rem(220);
+    background: $default-color;
+    border-radius: 50%;
+  }
+
+  @include media-breakpoint-down(md) {
+
+    &--round {
+      margin-top: 3rem;
+    }
+  }
+
+  @include media-breakpoint-down(xs) {
+
+    &--round {
+      margin-top: 4rem;
+    }
+
+    &__wrap {
+      top: 0;
+      margin-bottom: 0;
+    }
+
+    &__text {
+      font-size: 0.9rem;
+    }
+      
+    &__title {
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+    }
+
+    &__img {
+      width: 208px;
+      min-width: 208px;
+      height: 208px;
+      margin-top: 5px;
+      margin-bottom: 25px;
+    }
+
+    &__img-border {
+      width: 218px;
+      height: 218px;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+// Font
+$mainFont                : 'HelveticaNeueCyr', Helvetica, Arial, sans-serif;
+$secondFont              : 'NimbusSanTConBold', Arial, sans-serif;
+$thirdFont               : 'ArialMT', Arial, sans-serif;
+
+
+// Size
+$mainFontColor           : #ffffff;
+$mainFontSize            : 19px;
+
+$mainFontSize            : (21px, 19px, 18px, 17px, 16px);
+
+$mainFontWeight          : 400;
+$mainLineHeight          : 1;
+
+
+$grid-gutter-width       : 30px;
+$grid-breakpoints        : (xxs: 0,
+                             xs: 480px,
+                             sm: 576px,
+                             md: 768px,
+                             lg: 992px,
+                             xl: 1280px,
+                            xxl: 1440px);
+
+$container-max-widths    : (xs: 480px,
+                            sm: 550px,
+                            md: 750px,
+                            lg: 980px,
+                            xl: 990px,
+                           xxl: 1420px);
+
+
+// Main color
+$dark-color              : #000000;
+$default-color           : #ffffff;
+$primary-color           : #108be9;
+$success-color           : #8dc705;
+$danger-color            : #ff005d;
+$warning-color           : #e46107;
+
+// Background
+$primary-bckgr           : #fefefe;
+$default-bckgr           : #e4e4e4;
+$success-bckgr           : #26311c;
+$dark-bckgr              : #393939;
+$hover-bckgr             : #1c1a1a;
+
+// Neutral Color
+$neutral-success         : #48890a;
+$neutral-regular         : #7b7b7b;
+$neutral-secondary       : #f1f2f5;
+$neutral-placeholder     : #CACACA;
+
+// Border Color
+$border-base             : #a1ad97;
+$border-success          : #7da83c;
+$border-lighter          : #EBEEF5;
+$border-lightex          : #F2F6FC;
+
+// Transition
+$default-transition      : all .3s cubic-bezier(0.25, 0.1, 0.25, 1);
+$long-transition      : all .8s cubic-bezier(0.25, 0.1, 0.25, 1);
